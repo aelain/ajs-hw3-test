@@ -4,8 +4,7 @@
   "description": "Browser based game",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "coverage": "jest --coverage",
+    "test": "jest --coverage",
     "lint": "eslint . --fix",
     "build": "webpack --mode production",
     "start": "webpack serve --mode development"
